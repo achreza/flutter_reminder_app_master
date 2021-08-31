@@ -6,11 +6,12 @@ import 'package:flutter_remindyours_app/db/DBHelper.dart';
 import 'package:flutter_remindyours_app/listnama.dart';
 import 'package:flutter_remindyours_app/models/Model_Jadwal.dart';
 import 'package:flutter_remindyours_app/ui/MenuKalender.dart';
+import 'package:flutter_remindyours_app/ui/MenuStats.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 void main() {
-  runApp(MenuKalender());
+  runApp(MenuStats());
 }
 
 class MainMenu extends StatefulWidget {
@@ -41,6 +42,7 @@ class _MainMenuState extends State<MainMenu> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         bottomNavigationBar: CurvedNavigationBar(
           animationCurve: Curves.easeIn,

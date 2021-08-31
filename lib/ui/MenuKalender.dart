@@ -4,8 +4,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class MenuKalender extends StatefulWidget {
-  const MenuKalender({Key? key}) : super(key: key);
-
   @override
   _MenuKalenderState createState() => _MenuKalenderState();
 }
