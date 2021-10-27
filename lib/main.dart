@@ -11,7 +11,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 void main() {
-  runApp(MenuStats());
+  runApp(MainMenu());
 }
 
 class MainMenu extends StatefulWidget {
